@@ -1,0 +1,132 @@
+string []QuestionOne = {"a","b","c","d"};
+    string []QuestionTwo = {"a","b","c","d"};
+    string []QuestionThree = {"a","b","c","d"};;
+    string []QuestionFour = {"a","b","c","d"};
+    string []QuestionFive = {"a","b","c","d"};
+    string []QuestionSix = {"a","b","c","d"};
+    string []QuestionSeven = {"a","b","c","d"};
+    string []QuestionEight = {"a","b","c","d"};
+    string []QuestionNine = {"a","b","c","d"};
+    string []QuestionTen = {"a","b","c","d"};
+    
+    int counter = 0;
+    Console.WriteLine("Hello World, are you ready for this amaizing surver? Type (y/n)");
+		
+		if(Console.ReadLine() == "y"){
+      Console.WriteLine("But first tell us what your name is?");
+      string name = Console.ReadLine();
+      Console.WriteLine("Okay Hello, " + name + "! Lets start with this 10 question survey, at the end you will get a total score of the answers you got right :) ");
+      Console.WriteLine("=====================================================================================================================================");
+      Console.WriteLine("1) Who is the most known World Wide?");
+      Console.WriteLine("a) God");
+      Console.WriteLine("b) Christiano Ronaldo");
+      Console.WriteLine("c) Donald Trump");
+      Console.WriteLine("d) Robert Mugabe");
+		string answer = Console.ReadLine();
+      if(answer == QuestionOne[0]){
+		  counter ++;
+      }else{
+      }
+      Console.WriteLine("=========================================");
+      Console.WriteLine("2) What color is the sky during day?");
+      Console.WriteLine("a) White");
+      Console.WriteLine("b) Yellow");
+      Console.WriteLine("c) Blue");
+      Console.WriteLine("d) Black");
+      if(Console.ReadLine() == QuestionTwo[2]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("3) The smartest animal?");
+      Console.WriteLine("a) Horse");
+      Console.WriteLine("b) Dog");
+      Console.WriteLine("c) Cow");
+      Console.WriteLine("d) Ape");
+      if(Console.ReadLine() == QuestionThree[3]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("4) Distance from earth to the sun (estimate)?");
+      Console.WriteLine("a) 10 miles");
+      Console.WriteLine("b) 1 million miles");
+      Console.WriteLine("c) 100 000 miles");
+      Console.WriteLine("d) 1000 miles");
+      if(Console.ReadLine() == QuestionFour[1]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("5) Strongest shape?");
+      Console.WriteLine("a) Triangle");
+      Console.WriteLine("b) Square");
+      Console.WriteLine("c) Rectangle");
+      Console.WriteLine("d) Circle");
+      if(Console.ReadLine() == QuestionFive[0]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("6) The most popular book of all times?");
+      Console.WriteLine("a) Mein Kampf (Adolf Hitler)");
+      Console.WriteLine("b) The Bible (From God)");
+      Console.WriteLine("c) In Search of lost time (Marcel Proust)");
+      Console.WriteLine("d) Ulysses (James Joyce)");
+      if(Console.ReadLine() == QuestionSix[1]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("7) Fastest Car 2019?");
+      Console.WriteLine("a) Mercedes-AMG Project One");
+      Console.WriteLine("b) Ford GT: 216 MPH");
+      Console.WriteLine("c) McLaren Senna: 208 MPH");
+      Console.WriteLine("d) Bugatti Chiron Sport: 261 MPH. Bugatti");
+      if(Console.ReadLine() == QuestionSeven[3]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("8) Who is the Richest man 2019?");
+      Console.WriteLine("a) Mark Zuckerberg");
+      Console.WriteLine("b) Jeff Bezos");
+      Console.WriteLine("c) Bill Gates");
+      Console.WriteLine("d) Bernard Arnault");
+      if(Console.ReadLine() == QuestionEight[1]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("9) Where is the underwater waterfall located??");
+      Console.WriteLine("a) Madagascar");
+      Console.WriteLine("b) North America");
+      Console.WriteLine("c) Mauritius Island");
+      Console.WriteLine("d) South Africa");
+      if(Console.ReadLine() == QuestionNine[2]){
+          counter ++;
+      }else{
+      }Console.WriteLine("=========================================");
+      Console.WriteLine("10) Which of the following is programming languages?");
+      Console.WriteLine("a) Peanut Snack");
+      Console.WriteLine("b) Pine Apple");
+      Console.WriteLine("c) Apple");
+      Console.WriteLine("d) C#");
+      if(Console.ReadLine() == QuestionTen[3]){
+          counter ++;
+      }else{
+      }
+      Console.WriteLine("Thank you for answering our 10 general questions.");
+		Console.WriteLine("==============================================================================");
+		 Console.WriteLine("You scored a score of " + counter);
+		Console.WriteLine("==============================================================================");
+			Console.WriteLine("Here are the answers of the above survey. Even if youve got them all right");
+			Console.WriteLine("==========================================================================");
+			Console.WriteLine("1) God" );
+			Console.WriteLine("2) Blue");
+			Console.WriteLine("3) Ape");
+			Console.WriteLine("4) 1 million miles");
+			Console.WriteLine("5) Triangle");
+			Console.WriteLine("6) The Bible(From God)");
+			Console.WriteLine("7) Bugatti Chiron Sport: 261 MPH. Bugatti");
+			Console.WriteLine("8) Jeff Bezos");
+			Console.WriteLine("9) Mauritius Island");
+			Console.WriteLine("10) C#");
+			Console.WriteLine("==========================================================================");
+    }
+    else{
+      Console.WriteLine("Okay you can come back when you are ready! Thank you");
+    }
